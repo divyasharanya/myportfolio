@@ -37,7 +37,7 @@ export function HeroSection() {
               className="text-4xl sm:text-6xl lg:text-7xl font-bold"
             >
               <span className="block text-foreground">Hi, I'm</span>
-              <span className="block gradient-bg bg-clip-text text-transparent text-glow">
+              <span className="block text-white font-extrabold drop-shadow-2xl" style={{textShadow: '0 0 30px rgba(59, 130, 246, 0.8), 0 0 60px rgba(168, 85, 247, 0.4)'}}>
                 K. Nikshith
               </span>
             </motion.h1>
