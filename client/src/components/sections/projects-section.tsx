@@ -135,7 +135,7 @@ export function ProjectsSection() {
           className="text-center mt-12"
         >
           <a 
-            href="https://github.com/nik-nam-is-nani"
+            href="https://github.com/divyasharanya"
             className="inline-flex items-center px-6 py-3 border border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-lg transition-colors"
             data-testid="link-all-projects"
           >
