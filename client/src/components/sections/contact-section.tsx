@@ -56,13 +56,13 @@ export function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      value: "nikshith@example.com",
+      value: "divyasaranya0619@gmail.com",
       color: "bg-primary/20 text-primary"
     },
     {
       icon: SiGithub,
       title: "GitHub",
-      value: "github.com/nik-nam-is-nani",
+      value: "github.com/divyasharanya",
       color: "bg-secondary/20 text-secondary"
     },
     {
@@ -189,7 +189,7 @@ export function ContactSection() {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder="john.doe@example.com"
+                  placeholder="youremail@example.com"
                   data-testid="input-email"
                 />
               </div>

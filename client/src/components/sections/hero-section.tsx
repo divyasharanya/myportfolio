@@ -38,7 +38,7 @@ export function HeroSection() {
             >
               <span className="block text-foreground">Hi, I'm</span>
               <span className="block text-white font-extrabold drop-shadow-2xl" style={{textShadow: '0 0 30px rgba(59, 130, 246, 0.8), 0 0 60px rgba(168, 85, 247, 0.4)'}}>
-                K. Nikshith
+                G.S DIVYA SHARANYA
               </span>
             </motion.h1>
             <motion.p
@@ -57,7 +57,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            I'm a 2nd year engineering student passionate about building robust Java backend systems and exploring AI/ML solutions. 
+            I'm a engineering student passionate about building robust Java backend systems and exploring AI/ML solutions. 
             From complete management systems to interactive web applications, I love turning ideas into working software.
           </motion.p>
           
@@ -93,21 +93,21 @@ export function HeroSection() {
             className="flex justify-center space-x-6 pt-8"
           >
             <a 
-              href="https://github.com/nik-nam-is-nani" 
+              href="https://github.com/divya_sharanya" 
               className="text-muted-foreground hover:text-primary transition-colors"
               data-testid="link-github"
             >
               <SiGithub className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/divya-saranya-g-s-1b64512bb" 
               className="text-muted-foreground hover:text-primary transition-colors"
               data-testid="link-linkedin"
             >
               <SiLinkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:contact@example.com" 
+              href="mailto:divyasaranya0619@gmail.com" 
               className="text-muted-foreground hover:text-primary transition-colors"
               data-testid="link-email"
             >

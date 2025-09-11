@@ -15,31 +15,33 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Supermarket Management System",
-    description: "Complete backend system in Java with Oracle DB integration and sleek frontend. Features inventory management, billing system, and customer management with comprehensive reporting.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    technologies: ["Java", "Oracle DB", "Swing", "JDBC"],
+    title: "Data Analyser",
+    description: "A Python-based data analysis tool designed to process, clean, and visualize datasets. It helps uncover insights, trends, and patterns using data preprocessing, exploratory data analysis, and graphical visualizations.",
+    image: "https://t4.ftcdn.net/jpg/16/00/32/77/240_F_1600327738_kvVIPtyuGr1p9KeCqC8VmB3VaAvb3I7c.jpg",
+    technologies: ["Python", "Pandas", "Matplotlib", "NumPy"],
     colors: ["primary", "secondary", "accent", "primary"],
-    githubUrl: "https://github.com/nik-nam-is-nani",
-    demoUrl: "#"
+    githubUrl: "https://github.com/divyasharanya/",
+    demoUrl: "https://github.com/divyasharanya/data_analyser"
   },
+
+
   {
     title: "StudyHub Web Application",
     description: "Modern platform with PDF viewer/manager, user authentication system, and dark/light mode toggle. Built with responsive design and intuitive user interface.",
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["React", "JavaScript", "CSS", "PDF.js"],
     colors: ["primary", "secondary", "accent", "primary"],
-    githubUrl: "https://github.com/nik-nam-is-nani",
-    demoUrl: "#"
+    githubUrl: "https://github.com/divyasharanya",
+    demoUrl: "https://github.com/divyasharanya/PDF-viewer"
   },
   {
-    title: "Real-time Chat Application",
-    description: "PyQt6-based chat application with WebChannel integration for real-time messaging. Features username handling, message history, and clean desktop interface.",
+    title: "Real-time Weather Application",
+    description: "A PyQt6 desktop chat application that uses QWebChannel and a lightweight HTML frontend for real-time messaging. Includes a username entry screen, message history (local/DB), and a polished, minimal desktop UI designed for reliability and easy integration with a backend server (e.g., 172.16.23.222:6550).",
     image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Python", "PyQt6", "WebChannel", "Sockets"],
     colors: ["primary", "secondary", "accent", "primary"],
-    githubUrl: "https://github.com/nik-nam-is-nani",
-    demoUrl: "#"
+    githubUrl: "https://github.com/divyasharanya",
+    demoUrl: "https://github.com/divyasharanya/weather_application-"
   }
 ];
 

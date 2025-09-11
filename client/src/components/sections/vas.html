@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srinivasa Rao | Portfolio</title>
+  <style>
+    /* Background */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      color: #fff;
+      background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+      overflow-x: hidden;
+    }
+
+    /* Stars effect */
+    canvas#stars {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 20px cyan;
+    }
+    header p {
+      color: #aaa;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #0ff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px cyan;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: cyan;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      text-shadow: 0 0 10px cyan;
+    }
+
+    /* 3D card effect */
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(0,255,255,0.2);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      perspective: 1000px;
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+      box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    }
+    .card:hover {
+      transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: cyan;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: white;
+      color: black;
+      box-shadow: 0 0 20px cyan;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.6);
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <header>
+    <h1>Srinivasa Rao</h1>
+    <p>📍 Kurnool, India | ✉ m.srinivasarao051@gmail.com</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>👋 About Me</h2>
+    <div class="card">
+      <p>
+        Motivated Computer Science undergraduate passionate about Generative AI,
+        Full Stack Development, and Data Engineering. Strong foundation in Java,
+        Python, and DSA, with hands-on experience in real-world applications.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>⚡ Skills</h2>
+    <div class="card">
+      <p><b>Programming:</b> Java, Python, JavaScript</p>
+      <p><b>AI & Data:</b> Generative AI basics, Prompt Engineering</p>
+      <p><b>Web Tech:</b> HTML, CSS, JS, Fetch API</p>
+      <p><b>Databases:</b> MySQL</p>
+      <p><b>Frameworks:</b> React.js (learning), Spring Boot</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>💻 Projects</h2>
+    <div class="card">
+      <h3>AI-powered Weather App</h3>
+      <p>Responsive app fetching real-time weather using OpenWeather API.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+    <div class="card">
+      <h3>Bank Management System</h3>
+      <p>Java OOP-based console system with account management.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+    <div class="card">
+      <h3>Generative AI with Python</h3>
+      <p>Explored text summarization, chatbots, and API integration.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>🏆 Achievements</h2>
+    <div class="card">
+      <ul>
+        <li>Solved 70+ DSA problems on LeetCode</li>
+        <li>3rd place in SmartInterviews coding competition</li>
+        <li>Learning Data Analytics & Generative AI (GFG)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📩 Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:m.srinivasarao051@gmail.com">m.srinivasarao051@gmail.com</a></p>
+      <p>GitHub: <a href="#">github.com/yourusername</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Srinivasa Rao. All rights reserved.
+  </footer>
+
+  <script>
+    // Starfield animation background
+    const canvas = document.getElementById("stars");
+    const ctx = canvas.getContext("2d");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let stars = [];
+    for (let i = 0; i < 200; i++) {
+      stars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        radius: Math.random() * 1.5,
+        speed: Math.random() * 0.5 + 0.2,
+      });
+    }
+
+    function animateStars() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = "white";
+      stars.forEach(star => {
+        ctx.beginPath();
+        ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+        ctx.fill();
+        star.y += star.speed;
+        if (star.y > canvas.height) {
+          star.y = 0;
+          star.x = Math.random() * canvas.width;
+        }
+      });
+      requestAnimationFrame(animateStars);
+    }
+    animateStars();
+
+    window.addEventListener("resize", () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+  </script>
+</body>
+</html>

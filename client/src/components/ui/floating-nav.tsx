@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 interface FloatingNavProps {
   className?: string;
 }
-
 export function FloatingNav({ className }: FloatingNavProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -45,7 +44,7 @@ export function FloatingNav({ className }: FloatingNavProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold text-primary" data-testid="logo">K. Nikshith</span>
+            <span className="text-xl font-bold text-primary" data-testid="logo">G.S Divya Sharanya</span>
           </div>
           
           <div className="hidden md:block">

@@ -14,9 +14,9 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-foreground">K. Nikshith</h3>
+            <h3 className="text-xl font-bold text-foreground">G.S DIVY SHARANYA</h3>
             <p className="text-muted-foreground">
-              Aspiring Backend Developer & AI/ML Enthusiast, 2nd year engineering student 
+              Aspiring Backend Developer & AI/ML Enthusiast, engineering student 
               passionate about creating innovative software solutions.
             </p>
           </div>
@@ -59,21 +59,21 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">Connect</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/nik-nam-is-nani" 
+                href="https://github.com/divyasharanya" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 data-testid="link-footer-github"
               >
                 <SiGithub className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/divya-saranya-g-s-1b64512bb" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 data-testid="link-footer-linkedin"
               >
                 <SiLinkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:contact@developer.com" 
+                href="mailto:divyasaranya0619@gmail.com" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 data-testid="link-footer-email"
               >
@@ -85,7 +85,7 @@ export function Footer() {
         
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground" data-testid="text-copyright">
-            © 2024 K. Nikshith. Built with passion for clean code and innovative solutions.
+            © 2024 G.S DIVYA SHARANYA. Built with passion for clean code and innovative solutions.
           </p>
         </div>
       </div>
