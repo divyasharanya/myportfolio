@@ -36,7 +36,7 @@ const projects: Project[] = [
   },
   {
     title: "Real-time Weather Application",
-    description: "A PyQt6 desktop chat application that uses QWebChannel and a lightweight HTML frontend for real-time messaging. Includes a username entry screen, message history (local/DB), and a polished, minimal desktop UI designed for reliability and easy integration with a backend server (e.g., 172.16.23.222:6550).",
+    description: "A real-time weather application that connects to live weather APIs to provide current conditions, forecasts, and alerts. Includes location search, recent history (local/DB), and a minimal UI designed for reliability and smooth integration with services like OpenWeatherMap or WeatherAPI..",
     image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
     technologies: ["Python", "PyQt6", "WebChannel", "Sockets"],
     colors: ["primary", "secondary", "accent", "primary"],
