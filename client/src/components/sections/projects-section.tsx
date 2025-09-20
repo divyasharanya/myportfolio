@@ -41,7 +41,7 @@ const projects: Project[] = [
     technologies: ["Python", "PyQt6", "WebChannel", "Sockets"],
     colors: ["primary", "secondary", "accent", "primary"],
     githubUrl: "https://github.com/divyasharanya",
-    demoUrl: "https://github.com/divyasharanya/weather_application-"
+    demoUrl: "https://weathertracker0.netlify.app/"
   }
 ];
 
