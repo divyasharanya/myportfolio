@@ -38,7 +38,7 @@ export function HeroSection() {
             >
               <span className="block text-foreground">Hi, I'm</span>
               <span className="block text-white font-extrabold drop-shadow-2xl" style={{textShadow: '0 0 30px rgba(59, 130, 246, 0.8), 0 0 60px rgba(168, 85, 247, 0.4)'}}>
-                G.S DIVYA SHARANYA
+                G.S DIVYA 
               </span>
             </motion.h1>
             <motion.p
